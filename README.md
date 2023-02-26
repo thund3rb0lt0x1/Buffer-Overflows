@@ -14,7 +14,7 @@
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Finding_badchars.png" alt="Finding_Badchars" width="980">
 
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/badchars_ESP.png" alt="ESP_Badchars" width="980">
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/badchars_ESP.png" alt="ESP_Badchars" width="780">
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/immunity_badchars.png" alt="Immunity_Badchars" width="980">
 
