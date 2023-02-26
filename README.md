@@ -2,7 +2,7 @@
 
 
 
-
+> cat trun.spk
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/trun.png" alt="Spiking" width="320">
 
 
