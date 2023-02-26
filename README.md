@@ -26,7 +26,7 @@ It will show where the server is crashed exactly.
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/pattern_offset.png" alt="Pattern_offset" width="480">
 
-It should break the program, As you can see the EIP is overwritten with 42424242 that is 4B's.<br>
+It should break the program, As you can see the EIP is overwritten with <b>42424242</b> that is 4B's.<br>
 So now we can control EIP now.
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Controlling_EIP.png" alt="Controlling_EIP" width="780">
 
@@ -43,9 +43,9 @@ If you open bytearray.txt file you will see the bytearray is generated, we can c
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Finding_badchars.png" alt="Finding_Badchars" width="780">
 
 Now hope fully we should crash the software.<br>
-Note down the <b>ESP address<b>
+Note down the ESP address
 
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/badchars_ESP.png" alt="ESP_Badchars" width="780"><br>
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/badchars_ESP.png" alt="ESP_Badchars" width="580"><br>
 
 Type in Immunity
 > !mona compare -f C:\mona\bytearray.bin -a <ESP_address>
@@ -60,11 +60,11 @@ Now we have to find our jump addr / return addr
 > !mona jmp -r ESP -m "essfunc.dll"
 
 Now lets see the return address after minimizing the 'CPU threads' in 'Log data' tab.<br>
-In see in <b>'Results:' Address is '0x625011af'<b>
+In see in <b>'Results:' Address is '0x625011af'</b>
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/return_addr.png" alt="Return_Addr" width="780">
 
-In the script we have entered the return addr in reverse order (i.e Little endian format) : <b>'\xaf\x11\x50\x62'<b><br>
+In the script we have entered the return addr in reverse order (i.e Little endian format) : <b>'\xaf\x11\x50\x62'</b><br>
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/getting_shell.png" alt="Getting_Shell" width="780">
 
 Getting reverse shell!!
