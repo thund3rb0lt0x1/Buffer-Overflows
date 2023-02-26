@@ -18,10 +18,12 @@ Now create random code using pattern_create.
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Offset_2.png" alt="Offset" width="880">
 
 Lets run the script to get the EIP address.
+
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/EIP_immunity.png" alt="EIP_Addr" width="880">
 
 It will show where the server is crashed exactly.
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/pattern_offset.png" alt="Pattern_offset" width="880">
+
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/pattern_offset.png" alt="Pattern_offset" width="580">
 
 It should break the program, As you can see the EIP is overwritten with 42424242 that is 4 B's.
 So now we can control EIP now.
@@ -30,8 +32,10 @@ So now we can control EIP now.
 First go to 'C:\' drive and create a folder called 'mona'
 Now in Immunity debugger type
 > !mona config -set workingfolder C:\mona
+
 Now, once we have our workingfolder set, now going to generate a Bad characters list.
 > !mona bytearray -cpb '\x00'
+
 Now go to the folder 'C:\mona' you will see there will be 2 files one is 'bytearray.bin' and 'bytearray.txt' files.
 If you open bytearray.txt file you will see the bytearray is generated, we can copy the badcharacters and past in python script.
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Finding_badchars.png" alt="Finding_Badchars" width="880">
@@ -42,6 +46,7 @@ Now hope fully we should crash the software.
 
 Type in Immunity
 > !mona compare -f C:\mona\bytearray.bin -a <ESP_address>
+
 Now it will look for any badcharacters and display in 'BadChars' column.
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/immunity_badchars.png" alt="Immunity_Badchars" width="880">
 
