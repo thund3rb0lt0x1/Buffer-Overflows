@@ -7,7 +7,7 @@
 
 It sends bunch of AAA's same as fuzzing, till the vulnserver crashes.
 
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/generic_send_tcp.png" alt="Generic_send_tcp" width="480">
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/generic_send_tcp.png" alt="Generic_send_tcp" width="580">
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Fuzzing.png" alt="Fuzzing" width="980">
 
