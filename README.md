@@ -1,6 +1,6 @@
 # VulnServer Buffer-Overflows Attack
 
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/trun.png" alt="Spiking" width="520">
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/trun.png" alt="Spiking" width="420">
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Fuzzing.png" alt="Fuzzing" width="980">
 
@@ -8,7 +8,7 @@
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/EIP_immunity.png" alt="EIP_Addr" width="980">
 
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/pattern_offset.png" alt="Pattern_offset" width="520">
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/pattern_offset.png" alt="Pattern_offset" width="480">
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Controlling_EIP.png" alt="Controlling_EIP" width="980">
 
