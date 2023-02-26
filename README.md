@@ -28,7 +28,8 @@ It will show where the server is crashed exactly.
 
 It should break the program, As you can see the EIP is overwritten with <b>42424242</b> that is 4B's.<br>
 So now we can control EIP now.
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Controlling_EIP.png" alt="Controlling_EIP" width="780">
+
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Controlling_EIP.png" alt="Controlling_EIP" width="580">
 
 First go to 'C:\' drive and create a folder called 'mona'
 Now in Immunity debugger type
@@ -55,6 +56,7 @@ Now it will look for any badcharacters and display in 'BadChars' column.<br>
 
 Now we have to find our jump addr / return addr
 > !mona modules
+
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/mona_modules.png" alt="Mona_Modules" width="780"><br>
 
 > !mona jmp -r ESP -m "essfunc.dll"
@@ -68,4 +70,4 @@ In the script we have entered the return addr in reverse order (i.e Little endia
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/getting_shell.png" alt="Getting_Shell" width="780">
 
 Getting reverse shell!!
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/netcat.png" alt="NetCat" width="780">
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/netcat.png" alt="NetCat" width="700">
