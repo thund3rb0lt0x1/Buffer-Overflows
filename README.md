@@ -11,6 +11,7 @@ It sends bunch of AAA's same as fuzzing, till the vulnserver crashes.
 
 We are sending bunch of AAA's till the vulnserver crashes.
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Fuzzing.png" alt="Fuzzing" width="780">
+
 Now we don't know that where exactly EIP is at, But note down on how many bytes the server was crashed.
 
 Now create random code using pattern_create.
@@ -25,7 +26,7 @@ It will show where the server is crashed exactly.
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/pattern_offset.png" alt="Pattern_offset" width="480">
 
-It should break the program, As you can see the EIP is overwritten with 42424242 that is 4 B's.
+It should break the program, As you can see the EIP is overwritten with 42424242 that is 4 B's.<br>
 So now we can control EIP now.
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Controlling_EIP.png" alt="Controlling_EIP" width="780">
 
@@ -41,7 +42,7 @@ If you open bytearray.txt file you will see the bytearray is generated, we can c
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Finding_badchars.png" alt="Finding_Badchars" width="780">
 
-Now hope fully we should crash the software.
+Now hope fully we should crash the software.<br>
 Note down the <b>ESP address<b>
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/badchars_ESP.png" alt="ESP_Badchars" width="780">
