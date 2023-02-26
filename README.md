@@ -26,7 +26,7 @@ It will show where the server is crashed exactly.
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/pattern_offset.png" alt="Pattern_offset" width="480">
 
-It should break the program, As you can see the EIP is overwritten with <b>42424242<b> that is 4B's.<br>
+It should break the program, As you can see the EIP is overwritten with 42424242 that is 4B's.<br>
 So now we can control EIP now.
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Controlling_EIP.png" alt="Controlling_EIP" width="780">
 
