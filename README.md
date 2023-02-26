@@ -1,6 +1,6 @@
 # VulnServer Buffer-Overflows Attack
 
-<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/trun.png" alt="Spiking" width="420">
+<img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/trun.png" alt="Spiking" width="320">
 
 <img src="https://github.com/thund3rb0lt0x1/Buffer-Overflows/blob/main/Assets/Fuzzing.png" alt="Fuzzing" width="980">
 
